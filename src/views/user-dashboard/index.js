@@ -48,7 +48,7 @@ const UserDashboard = () => {
                         <Grid item xs={6} sm={6}>
                             <TextField
                                 fullWidth
-                                label="Description"
+                                label="Date"
                                 margin="normal"
                                 name="searchDate"
                                 type="text"
@@ -65,7 +65,7 @@ const UserDashboard = () => {
                             color="secondary"
                             onClick={() => getOfficerDetailsByDate()}
                         >
-                            Submit
+                            Search
                         </Button>
                     </Grid>
                     <Grid item xs={12} md={12}>
