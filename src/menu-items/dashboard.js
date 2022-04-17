@@ -20,6 +20,22 @@ const dashboard = {
             breadcrumbs: false
         },
         {
+            id: 'officerDashboard',
+            title: 'Officer Dashboard',
+            type: 'item',
+            url: '/officerDashboard',
+            icon: icons.IconDashboard,
+            breadcrumbs: false
+        },
+        {
+            id: 'officeAddrDashboard',
+            title: 'Add Officer',
+            type: 'item',
+            url: '/addData',
+            icon: icons.IconDashboard,
+            breadcrumbs: false
+        },
+        {
             id: 'logout',
             title: 'Logout',
             type: 'item',
